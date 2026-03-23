@@ -1,0 +1,26 @@
+body { font-family: sans-serif; background: #bcedf1; text-align: center; }
+
+#dashboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 15px;
+}
+
+.card {
+    background: rgb(54, 102, 231);
+    border: 3px solid #7c8fe4;
+    padding: 20px;
+    width: 25%;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Alerta crítico (Requisito 3.3) */
+.alerta-critico {
+    background-color: #ff4d4d !important;
+    border-color: #ffffff !important;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(255,0,0,0.5);
+}
